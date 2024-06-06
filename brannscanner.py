@@ -67,8 +67,8 @@ def input_networks(networks, port_range):
 
 if __name__ == "__main__":
     networks_to_scan = [
-        "10.0.10.0/24",
-        "192.168.10.0/24"
+        "10.0.0.0/8",
+        "192.168.1.0/24"
     ]
-    port_range_to_scan = (20, 25)
+    port_range_to_scan = (1, 65535)
     input_networks(networks_to_scan, port_range_to_scan)
